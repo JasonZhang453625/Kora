@@ -2,23 +2,23 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Kora - 来华生活 AI 助手",
+  title: "KORA - Your Local Friend in China",
   description:
-    "Kora 是运行在 Telegram 里的 AI 生活助手，帮助来华外国人快速解决支付、餐饮、地点和日常生活问题。",
+    "KORA helps foreign travelers in China save time, avoid tourist traps, and find local food, nightlife, routes, payment help, and Amap-ready addresses.",
   metadataBase: new URL("https://kora-china.vercel.app"),
   openGraph: {
-    title: "Kora - 来华生活 AI 助手",
+    title: "KORA - Your Local Friend in China",
     description:
-      "一个 Telegram Bot，让来华生活问题变成可执行的步骤、地点和本地建议。",
+      "A Telegram assistant for foreign travelers who want local answers in China.",
     type: "website",
-    locale: "zh_CN"
+    locale: "en_US"
   }
 };
 
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#071013"
+  themeColor: "#fffaf2"
 };
 
 export default function RootLayout({
